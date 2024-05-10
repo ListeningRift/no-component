@@ -1,0 +1,47 @@
+@use 'constants' as *;
+
+@mixin b($block) {
+  $b: $prefix + '-' + $block !global;
+
+  .#{$b} {
+    @content;
+  }
+}
+
+@mixin e($element) {
+  $e: '';
+  $parent: &;
+
+  @each $item in $element {
+    $e: #{$e + $parent + '__' + $item + ','};
+  }
+
+  @at-root {
+    #{$e} {
+      @content;
+    }
+  }
+}
+
+@mixin m($modifier) {
+  $m: '';
+  $parent: &;
+
+  @each $item in $modifier {
+    $m: #{$m + '.' + $parent + '--' + $item + ','};
+  }
+
+  @at-root {
+    #{$m} {
+      @content;
+    }
+  }
+}
+
+@mixin when($state) {
+  @at-root {
+    &.#{$state-prefix + '-' + $state} {
+      @content;
+    }
+  }
+}

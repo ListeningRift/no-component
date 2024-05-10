@@ -1,0 +1,14 @@
+{
+  "name": "@no-component/scripts",
+  "private": true,
+  "scripts": {
+    "release": "tsx ./scripts/release.ts",
+    "gen:component": "tsx ./scripts/genComponent.ts",
+    "gen:composable": "tsx ./scripts/genComposable.ts",
+    "gen:directive": "tsx ./scripts/genDirective.ts"
+  },
+  "dependencies": {
+    "consola": "^3.1.0",
+    "tsx": "^3.12.6"
+  }
+}

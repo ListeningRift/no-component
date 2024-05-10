@@ -1,0 +1,10 @@
+// common style
+@use '../components/base/style/var.scss';
+@use '../components/base/style/bem.scss';
+@use '../components/base/style/function.scss';
+
+// base components
+@use '../components/base/float/style/float.scss';
+
+// components
+@use '../components/popover/style/popover.scss';

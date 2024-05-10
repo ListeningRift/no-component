@@ -1,0 +1,11 @@
+{
+  "name": "@no-component/directives",
+  "version": "0.0.0",
+  "description": "Directives",
+  "license": "MIT",
+  "main": "index.ts",
+  "module": "index.ts",
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  }
+}

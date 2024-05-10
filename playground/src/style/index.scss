@@ -1,0 +1,40 @@
+:root {
+  --noc-color-primary: #2177b8;
+  --noc-color-info: #2f90b9;
+  --noc-color-success: #64a76d;
+  --noc-color-warning: #f0cb56;
+  --noc-color-danger: #c02c38;
+  --noc-color-grey: #f2f2f2;
+  --noc-color-base: #fffef8;
+  --noc-color-disabled: #f2f2f2;
+  --noc-color-alpha: 0.08;
+  --noc-font-color-base: #333333;
+  --noc-font-color-secondary: #666666;
+  --noc-font-color-disabled: #999999;
+  --noc-font-color-placeholder: #c5c5c5;
+  --noc-font-color-white: #fffef8;
+  --noc-font-size-small: 12px;
+  --noc-font-size-base: 14px;
+  --noc-font-size-large: 16px;
+  --noc-font-size-huge: 20px;
+  --noc-border-width-base: 1px;
+  --noc-border-style-base: solid;
+  --noc-border-color-base: #e5e5e5;
+  --noc-border-radius-base: 2px;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: var(--noc-font-color-base);
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

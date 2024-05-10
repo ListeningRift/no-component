@@ -1,0 +1,6 @@
+packages:
+  - docs
+  - tools/*
+  - packages/*
+  - playground
+  - resolver

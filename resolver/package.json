@@ -1,0 +1,26 @@
+{
+  "name": "@no-component/resolver",
+  "version": "0.0.0",
+  "description": "Unplugin resolver",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "./dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub"
+  },
+  "dependencies": {
+    "@no-component/build": "workspace:*",
+    "unplugin-vue-components": "0.24.1"
+  },
+  "devDependencies": {
+    "jiti": "^1.18.2",
+    "unbuild": "^1.1.2",
+    "vue": "^3.2.37"
+  }
+}

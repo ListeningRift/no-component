@@ -1,0 +1,27 @@
+{
+  "name": "@no-component/playground",
+  "private": true,
+  "scripts": {
+    "dev": "vite --force --config ./vite.play.ts",
+    "build": "vite build --config ./vite.play.ts",
+    "preview": "vite preview --config ./vite.play.ts"
+  },
+  "dependencies": {
+    "@no-component/index": "workspace:^0.0.0",
+    "@vue/repl": "^1.3.3",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@no-component/build-utils": "workspace:^",
+    "@types/node": "^18.15.0",
+    "@unocss/preset-attributify": "^0.50.6",
+    "@unocss/reset": "^0.50.8",
+    "@vitejs/plugin-vue": "^4.2.0",
+    "sass": "^1.59.2",
+    "sass-loader": "^13.2.2",
+    "typescript": "^4.7.4",
+    "unocss": "^0.51.8",
+    "unplugin-vue-define-options": "^0.10.0",
+    "vite": "^4.1.4"
+  }
+}

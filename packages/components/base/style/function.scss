@@ -1,0 +1,5 @@
+@use 'constants' as *;
+
+@function get-css-var($type, $name) {
+  @return var(--#{$prefix}-#{$type}-#{$name});
+}

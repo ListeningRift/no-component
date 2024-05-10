@@ -1,0 +1,40 @@
+# System
+.DS_Store
+
+# Coverage directory
+coverage
+
+# Build Generate
+dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Caches
+.temp
+.cache
+.eslintcache
+.stylelintcache
+
+# Dependency directories
+node_modules
+
+# Editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Typescript build info
+*.tsbuildinfo
+
+# docs
+docs/.vitepress/dist
+docs/.vitepress/cache

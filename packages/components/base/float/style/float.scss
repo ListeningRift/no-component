@@ -1,0 +1,26 @@
+@use '../../style/bem.scss' as *;
+@use '../../style/function.scss' as *;
+
+@include b(float) {
+  @include e(content) {
+    background-color: get-css-var('color', 'base');
+    box-shadow: 0 6px 16px 0 get-css-var('shadow', 'base'),
+      0 3px 6px -4px get-css-var('shadow', 'heavy'),
+      0 9px 28px 8px get-css-var('shadow', 'light');
+  }
+
+  @include e(arrow) {
+    position: absolute;
+    overflow: hidden;
+    background-color: transparent;
+  }
+
+  @include e(arrow-content) {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: get-css-var('color', 'base');
+    box-shadow: 2px 2px 5px get-css-var('shadow', 'base');
+    transform: rotate(45deg);
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.dev.json",
+  "compilerOptions": {
+    "outDir": "dist/types",
+    "skipLibCheck": true,
+    "declaration": true,
+    "emitDeclarationOnly": true
+  },
+  "include": ["packages"],
+  "exclude": [
+    "node_modules",
+    "**/dist",
+    "**/__tests__/**/*",
+    "tools/**/*",
+    "**/*.md"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@no-component/components",
+  "version": "0.0.0",
+  "description": "Components",
+  "main": "index.ts",
+  "module": "index.ts",
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "sideEffects": false
+}

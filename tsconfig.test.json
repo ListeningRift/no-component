@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.dev.json",
+  "compilerOptions": {
+    "composite": true,
+    "jsx": "preserve",
+    "lib": ["ES2021", "DOM", "DOM.Iterable"],
+    "types": ["node", "jsdom"],
+    "skipLibCheck": true
+  },
+  "include": ["packages"],
+  "exclude": ["node_modules", "dist", "**/*.md"]
+}
